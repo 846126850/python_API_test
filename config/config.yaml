@@ -1,0 +1,25 @@
+# 环境配置
+environments:
+  dev:
+    base_url: "https://api-dev.example.com"
+    timeout: 10
+    headers:
+      Content-Type: "application/json"
+      Accept: "application/json"
+  
+  test:
+    base_url: "https://api-test.example.com"
+    timeout: 10
+    headers:
+      Content-Type: "application/json"
+      Accept: "application/json"
+  
+  prod:
+    base_url: "https://api.example.com"
+    timeout: 10
+    headers:
+      Content-Type: "application/json"
+      Accept: "application/json"
+
+# 默认环境
+default_env: "test"
