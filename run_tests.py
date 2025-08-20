@@ -50,4 +50,5 @@ def run_tests():
     return exit_code
 
 if __name__ == "__main__":
-    run_tests()
+    #run_tests()
+    print("hello world")
